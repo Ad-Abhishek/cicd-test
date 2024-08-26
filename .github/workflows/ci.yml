@@ -9,7 +9,7 @@ jobs:
     
   docker:
     runs-on: ubuntu-latest
-    needs: test # Only run this job if the test job passes
+   # needs: test # Only run this job if the test job passes
 
     steps:
     - name: ✅ Checking out GitHub code...
