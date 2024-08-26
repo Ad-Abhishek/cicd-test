@@ -1,8 +1,7 @@
 {
   "name": "cicd",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "jest",
     "start": "node ./app.js"
@@ -10,12 +9,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
+    "jest": "^29.7.0",
     "supertest": "^7.0.0"
-  },
-  "devDependencies": {
-    "jest": "^29.7.0"
   }
 }
