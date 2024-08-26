@@ -13,10 +13,12 @@ app.get('/ping', (req, res) => {
   res.send('Pong!');
 });
 
+app.get('/new', (req, res) => {
+  res.send('Hello World!');
+});
+
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
 
 module.exports = app;
-
-
